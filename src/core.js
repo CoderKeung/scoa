@@ -183,7 +183,7 @@ class Synchronization {
         let timeOut = setTimeout(
             async () => {
                await this.stop();
-            }, 10 * 1000);
+            }, 30 * 1000);
         await this.userLogin().then(async ()=>{
             clearTimeout(timeOut)
             try {
