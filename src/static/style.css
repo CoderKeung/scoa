@@ -1,0 +1,109 @@
+a, body, input, button {
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+    text-decoration: unset;
+    color: unset;
+    border: none;
+}
+.main {
+    width: 1000px;
+    margin: auto;
+}
+.header {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.title {
+    margin: auto;
+    width: 90%;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.submitBtn:hover {
+    cursor: pointer;
+}
+.submitBtn {
+    display: inline-block;
+    background-color: #1EA896;
+    color: #FFFFFF;
+    border: unset;
+    padding: 8px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    margin: 10px 0;
+}
+
+.itemInfo {
+    width: 30%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+}
+.itemInfoDate {
+    width: 40%;
+    margin: auto;
+    background-color: #B0DAFF;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.itemInfoTime {
+    width: 30%;
+    margin: auto;
+    background-color: #F2B6A0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.itemInfoType {
+    display: flex;
+    width: 30%;
+    text-align: center;
+}
+.itemInfoType>span {
+    width: 100%;
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.itemMail {
+    background-color: #F7E1AE;
+}
+.itemDispatch {
+    background-color: #A4D0A4;
+}
+.itemLink {
+    width: 70%;
+    text-align: center;
+    display: flex;
+}
+.itemInfoNameTagA {
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+.itemInfoNameTagA:hover {
+    cursor: pointer;
+}
+.itemInfoName {
+    display: block;
+    margin: auto;
+}
